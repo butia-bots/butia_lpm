@@ -1,0 +1,20 @@
+grasps:
+  shelf:
+    bottle:
+      name: bicycle/bottle
+      vertical_approach: 0.1
+      horizontal_approach: 0.0
+      lift: 0.1
+      vertical_offset: 0.0
+      horizontal_offset: 0.0
+    sports_ball:
+      name: sports ball
+      vertical_approach: 0.1
+      horizontal_approach: 0.0
+      lift: 0.1
+      vertical_offset: 0.0
+      horizontal_offset: 0.05
+
+#valid_locations: [table, object_delivery_zone]
+#valid_objects: [bottle, sports_ball]
+mock_tools: true

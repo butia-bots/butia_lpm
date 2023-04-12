@@ -1,0 +1,6 @@
+<launch>
+    <arg name="robot_name" default="doris" />
+    <node name="$(arg robot_name)_planner" pkg="butia_lpm" type="$(arg robot_name)_planner.py" output="screen">
+        <rosparam command="load" file="$(find butia_lpm)/config/$(arg robot_name)_planner.yaml"/>
+    </node>
+</launch>
